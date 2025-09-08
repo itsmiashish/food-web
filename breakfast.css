@@ -151,10 +151,25 @@ position: absolute;
   /* transition: all 0.3s ease-in-out; */
 
       }
-	 
+	
+
+   .hero-banner img
+   {
+       transform:  translatex(-300px);
+       border-radius: 20px;
+       height: 250px;
+       width: 250px;
+   }
+
 .hero-banner img:hover{
-      transform: scale(1.01);
+   
       cursor: pointer;
+         transition-property: all;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        transform:  translatex(2px);
+         border-radius: 10%;
+         
 }
       .hero h1 {
         font-size: 2.8em;

@@ -125,7 +125,6 @@ position: absolute;
         transform: translateY(-3px) scale(1.04);
         box-shadow: 0 8px 18px rgba(0, 195, 255, 0.25);
       }
-
       .hero {
         max-width: 1200px;
         margin: 48px auto 0;
@@ -193,8 +192,7 @@ position: absolute;
         box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
         border: 1px solid #fff;
        
-  
-      }
+     }
 
       .hero-banner img {
         /* display: block; */

@@ -1,0 +1,85 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main
+{
+	height: 100vh;
+	width: 100vw;
+}
+.main
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+.left
+{
+	width: 50%;
+	background-color: green;
+	background-image: url("../restaurant/assets/21222.jpg");
+	background-size: cover;
+height: 100%;
+}
+.left img{
+	height: 600px;
+}
+.right
+{
+	width: 50%;
+	background-image: url("");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	filter: drop-shadow(10px 10px 5px blue);
+}
+
+    form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #E65100;
+    }
+
+    input {
+      padding: 10px;
+      border: 2px solid #E65100;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #FF5722;
+      box-shadow: 0 0 8px rgba(230, 81, 0, 0.6);
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      background: #E65100;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #FF5722;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transform: translateY(-2px);
+    }

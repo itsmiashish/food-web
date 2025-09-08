@@ -138,25 +138,24 @@ position: absolute;
         padding: 0 16px;
       }
       .hero-card {
-        background-color:rgba(255, 169, 10, 0.719);
-		/* color: #000000; */
+  
+      background-image: url("../restaurant/assets/hand-drawn-iftar-meal-elements-collection_23-2148892480.jpg");
+		    background-size: cover;
         border: 1px solid #fff;
-        border-radius: 28px;
+            border-radius: 28px;
         padding: 32px;
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        justify-content: space-between;
+        /* gap: 150px; */
          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 
               0 12px 24px rgba(0, 0, 0, 0.15);
 			  text-align: center;
 			  align-content: center;
-  /* transition: all 0.3s ease-in-out; */
-
+height: 300px;
+font-family: cursive;
       }
-	 .center{
-		margin-left: 250px;
-	
-	 }
+	 
 .hero-banner img:hover{
       transform: scale(1.01);
       cursor: pointer;
@@ -164,11 +163,13 @@ position: absolute;
       .hero h1 {
         font-size: 2.8em;
         line-height: 1.15;
-		color: #eef4f1;
-        /* margin-bottom: 12px; */
+     margin-top: -20px;
+color: #E65100;
+text-shadow: 5px -1px 12px rgba(245, 221, 7, 0.927);
       }
+     
       .hero p {
-        color: rgb(255, 247, 247);
+        color: rgb(0, 0, 0);
         max-width: 56ch;
 
         /* margin-bottom: 18px; */
